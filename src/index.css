@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "sf-pro-display";
+  src: url("./assets/fonts/sf-pro-display/SFPRODISPLAYREGULAR.OTF");
+}
+@font-face {
+  font-family: "sf-pro-display-sm-italica";
+  src: url("./assets/fonts/sf-pro-display/SFPRODISPLAYSEMIBOLDITALIC.OTF");
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sf-pro-display;
+}

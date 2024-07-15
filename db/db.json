@@ -1,0 +1,133 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "categoryId": 102,
+      "title": "Mechanical Keyboard",
+      "shortDescription": "RGB backlit mechanical keyboard",
+      "description": "Experience the tactile feel of a mechanical keyboard with this RGB backlit model. Customize the lighting to suit your preferences and enjoy a responsive typing experience.",
+      "image": "https://www.cnet.com/a/img/resize/1b990bf2917a4d2a220ea2be6bb39e8eaca7d125/hub/2021/08/20/453e37bf-61cb-4e16-ad90-fd822bdc390a/keychron-k3-mechanical-keyboard.jpg?auto=webp&fit=crop&height=576&width=768",
+      "price": 89.99
+    },
+    {
+      "id": 2,
+      "categoryId": 102,
+      "title": "Mechanical Keyboard",
+      "shortDescription": "RGB backlit mechanical keyboard",
+      "description": "Experience the tactile feel of a mechanical keyboard with this RGB backlit model. Customize the lighting to suit your preferences and enjoy a responsive typing experience.",
+      "image": "https://i.redd.it/4j9tg0i0omv11.jpg",
+      "price": 57.99
+    },
+    {
+      "id": 3,
+      "categoryId": 103,
+      "title": "Headphones",
+      "shortDescription": "Over-ear noise cancelling headphones",
+      "description": "Immerse yourself in music with these noise cancelling headphones. They block out ambient noise, allowing you to enjoy your audio in peace. Perfect for travel and work.",
+      "image": "https://movilplay.co/wp-content/uploads/2023/11/ultrahead.jpg",
+      "price": 199.99
+    },
+    {
+      "id": 4,
+      "categoryId": 104,
+      "title": "Smart Watch",
+      "shortDescription": "Fitness tracking smart watch",
+      "description": "Stay on top of your fitness goals with this smart watch. It monitors your heart rate, tracks your steps, and provides notifications for calls and messages.",
+      "image": "https://ss610.liverpool.com.mx/xl/1111422091.jpg",
+      "price": 149.99
+    },
+    {
+      "id": 5,
+      "categoryId": 105,
+      "title": "4K UHD TV",
+      "shortDescription": "55-inch 4K Ultra HD Smart TV",
+      "description": "Enjoy your favorite shows and movies in stunning 4K resolution with this 55-inch Smart TV. With HDR support and smart features, it offers a complete entertainment experience.",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw9gOYGf7Mnewp1Jcd6oI7kqQeEUYkR2rsmg&s",
+      "price": 599.99
+    },
+    {
+      "id": 6,
+      "categoryId": 105,
+      "title": "4K UHD TV",
+      "shortDescription": "55-inch 4K Ultra HD Smart TV",
+      "description": "Enjoy your favorite shows and movies in stunning 4K resolution with this 55-inch Smart TV. With HDR support and smart features, it offers a complete entertainment experience.",
+      "image": "https://m.media-amazon.com/images/I/91Hk42lTFaL.jpg",
+      "price": 599.99
+    }
+  ],
+  "categories": [
+    {
+      "id": 101,
+      "name": "Computer Accessories",
+      "description": "Accessories for computers including mice, keyboards, and more."
+    },
+    {
+      "id": 102,
+      "name": "Keyboards",
+      "description": "Various types of keyboards for different uses."
+    },
+    {
+      "id": 103,
+      "name": "Audio",
+      "description": "Headphones, speakers, and other audio devices."
+    },
+    {
+      "id": 104,
+      "name": "Wearables",
+      "description": "Smart watches, fitness trackers, and other wearable technology."
+    },
+    {
+      "id": 105,
+      "name": "Television",
+      "description": "Various models of televisions including smart TVs and 4K UHD."
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "Ivan02",
+      "email": "lomeli.gerardo@outlook.com",
+      "passwordHash": "asdas,L}PLDa-oer-03kwl;emwe32io",
+      "shoppingListId": [1]
+    },
+    {
+      "id": 2,
+      "username": "JaneDoe",
+      "email": "jane.doe@example.com",
+      "passwordHash": "zxcv!@#-ZXCV123",
+      "shoppingListId": [
+        3
+      ]
+    }
+  ],
+  "shoppingLists": [
+    {
+      "id": 1,
+      "userId": 1,
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 3
+        },
+        {
+          "productId": 2,
+          "quantity": 4
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "userId": 2,
+      "items": [
+        {
+          "productId": 4,
+          "quantity": 1
+        },
+        {
+          "productId": 5,
+          "quantity": 2
+        }
+      ]
+    }
+  ]
+}
